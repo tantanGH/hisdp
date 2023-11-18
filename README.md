@@ -43,7 +43,7 @@ A simple high memory ISD/ISM player for Human68k/X680x0
 
 PCM8A.X または PCM8PP.X をあらかじめ常駐させておきます。
 
-        usage: hvdtp [options] <movie-file(.vdt|.v16)>
+        usage: hisdp [options] <movie-file(.vdt|.v16)>
         options:
               -l[n]         ... リピート回数指定。数字省略で無限リピート。(0:endless, 1:default)
               -c<15|31>     ... 15/31kHz mode (31:default)
