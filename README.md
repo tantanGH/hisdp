@@ -19,19 +19,20 @@ A simple high memory ISD/ISM player for Human68k/X680x0
 
 ## 動作環境
 
-* PhantomX 1.03d以上 ライトバックモード推奨
+* PhantomX 1.03d以上 ライトスルーモード推奨
 * 68030モード ハイメモリ768MB推奨
 * TS16DRVp.X ハイメモリドライバ
 * VDISK必須 (HDS非対応)
 * MercuryUnit 推奨
 
+注意：ライトバックモードだと再生が停止してしまい、ハードリセットが必要になる場合があるのでライトスルーでの利用を推奨します。
+
 ---
 
 ## 対応フォーマット
 
-* ISPR-V3.0 形式 (ADPCM, 拡張子.ISD)
-* ISPR-V4.0 形式 (16bit PCM, 拡張子.ISM)
-にのみ対応しています。
+* ISPR-V3.0 形式 (無圧縮, ADPCM, 拡張子.ISD)
+* ISPR-V4.0 形式 (無圧縮, 16bit PCM, 拡張子.ISD/.ISM)
 
 正方形ピクセル形式や圧縮形式には対応していません。また、横幅は128以上256以下で8の倍数のみ対応しています。
 
