@@ -5,7 +5,7 @@ A simple high memory ISD/ISM player for Human68k/X680x0
 
 ## About This
 
-ハイメモリ専用のISD/ISM動画プレーヤです。
+ハイメモリ専用のISD(ISPR-V3.0/4.0)動画プレーヤです。
 
  - fpsを優先するため逐次読み込み再生ではなくすべてハイメモリに一括バッファ
  - VDISKからハイメモリへのダイレクト高速ロード対応
