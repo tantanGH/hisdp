@@ -87,4 +87,5 @@ Windows以外でも使える拙作 [xmkisd](http://github.com/tantanGH/xmkisd/) 
 
 ## History
 
+* 0.1.1 (2023/11/18) ... 縦サイズの上限を240から256にした
 * 0.1.0 (2023/11/18) ... 初版
