@@ -70,22 +70,9 @@ PCM8A.X または PCM8PP.X をあらかじめ常駐させておきます。
 
 ## ISD/ISM/ISSデータ作成方法
 
-WindowsであればAVIからの変換ツールが公開されています。
-Windows以外でも使える拙作 [xmkisd](http://github.com/tantanGH/xmkisd/) などもあります。
+BOOTHにてWindows/Macで使えるクロスISDデータビルダxmkisd, プレーヤHISDP.X, セレクタMCSEL.Xの使いこなし方をまとめた技術書を頒布しています。
 
----
-
-## 上限FPS
-
-手元の環境での測定です。
-
-* XVI(10MHz) + PhantomX(RP4B) + 68030 WB + ハイメモリ768MB + MercuryV3
-
-216 x 168 x 30.0 FPS + 16bit PCM 32.0kHz stereo がコマ落ち無く再生できます。
-
-* XVI(16MHz) + PhantomX(新ファーム,RB4B) + 68030 WB + ハイメモリ768MB + MercuryV3
-
-240 x 186 x 30.0 FPS + 16bit PCM 32.0kHz stereo がコマ落ち無く再生できます。
+* [X680x0 / X68000 Z 最新動画テクニック 2.X680x0実機編](https://booth.pm/ja/items/5306356)
 
 ---
 
