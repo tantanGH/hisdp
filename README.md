@@ -26,8 +26,6 @@ A simple high memory ISD player for Human68k/X680x0
 * VDISK必須 (HDS非対応)
 * MercuryUnit 推奨
 
-注意：PhantomX version 1.03d以下の場合、バスエラーが発生して再生が停止してしまう場合があります。1.03eで利用してください。
-
 ---
 
 ## 対応フォーマット
