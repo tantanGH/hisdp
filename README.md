@@ -8,7 +8,7 @@ A simple high memory ISD player for Human68k/X680x0
 ハイメモリ専用のISD(ISPR-V3.0/4.0)動画プレーヤです。
 
  - fpsを優先するため逐次読み込み再生ではなくすべてハイメモリに一括バッファ
- - VDISKからハイメモリへのダイレクト高速ロード対応
+ - WindrvXM/VDISKからハイメモリへのダイレクト高速ロード対応
  - 15kHz/31kHzモード両対応
  - リピート再生対応
  - 正方形ピクセルモード対応
@@ -20,11 +20,13 @@ A simple high memory ISD player for Human68k/X680x0
 
 ## 動作環境
 
-* PhantomX version 1.03e 推奨
+* PhantomX version 1.04a 推奨
 * 68030 ライトスルーモード ハイメモリ768MB推奨
 * TS16DRVp.X ハイメモリドライバ
-* VDISK必須 (HDS非対応)
+* WindrvXM/VDISK必須 (HDS非対応)
 * MercuryUnit 推奨
+
+データファイルは PhantomX 1.04 の WindrvXM 機能を利用してSDカードに直接保存することを強くお勧めします。
 
 ---
 
@@ -95,6 +97,7 @@ BOOTHにてWindows/Macで使えるクロスISDデータビルダxmkisd, プレ�
 
 ## History
 
+* 0.4.5 (2024/02/23) ... プレビュー有効を環境変数で指定しているとヘルプメッセージでバスエラーが出ていたのを修正。
 * 0.4.3 (2024/01/01) ... プレビュー再生中に画像表示も行うようにした。
 * 0.4.2 (2023/12/26) ... 複数ファイルの再生に対応した。
 * 0.3.6 (2023/12/19) ... バッファリング中に逐次PCM再生を行うオプションを追加。
