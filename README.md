@@ -20,8 +20,8 @@ A simple high memory ISD player for Human68k/X680x0
 
 ## 動作環境
 
-* PhantomX version 1.04a 推奨
-* 68030 ライトスルーモード ハイメモリ768MB推奨
+* PhantomX version 1.20 推奨
+* 68030 ハイメモリ768MB推奨 ライトバックモード可
 * TS16DRVp.X ハイメモリドライバ
 * WindrvXM/VDISK必須 (HDS非対応)
 * MercuryUnit 推奨
